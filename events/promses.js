@@ -28,6 +28,8 @@
 
 //creating a promise using Promise constructor 
 
+
+// two ways to handel a promise | .then  .catch .finally |async await
 const promiseHold = new Promise(function(resolve,reject){
     setTimeout(() => {
         let err=false;
